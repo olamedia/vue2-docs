@@ -41,4 +41,9 @@
   <option>B</option>
   <option>C</option>
 </select>
+<select v-model="value">
+  <option v-for="option in options" v-bind:value="option.value">
+    {{ option.text }}
+  </option>
+</select>
 ```
