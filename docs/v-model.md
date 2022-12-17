@@ -42,7 +42,7 @@
   <option>C</option>
 </select>
 <select v-model="value">
-  <option v-for="option in options" v-bind:value="option.value">
+  <option v-for="option in options" :value="option.value">
     {{ option.text }}
   </option>
 </select>
