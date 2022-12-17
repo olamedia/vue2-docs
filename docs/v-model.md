@@ -8,7 +8,7 @@
 ```
 
 ## Textarea
-> Interpolation on textareas **(<textarea>{{text}}</textarea>) won't work**. Use v-model instead.
+> Interpolation on textareas (<textarea>{{text}}</textarea>) won't work
 ```vue
 <textarea v-model="message"></textarea>
 <textarea :value="value" @input="emit('input', $event.target.value)"></textarea>
