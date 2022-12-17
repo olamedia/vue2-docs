@@ -47,3 +47,18 @@
   </option>
 </select>
 ```
+
+## Vue2 Custom components
+```vue
+<CustomInput
+  :value="value"
+  @input="newValue => value = newValue"
+/>
+```
+## Vue3 Custom components
+```vue
+<CustomInput
+  :modelValue="value"
+  @update:modelValue="newValue => value = newValue"
+/>
+```
