@@ -1,3 +1,5 @@
+# Text and Textarea elements
+
 > text and textarea elements use **value** property and **input** event
 
 ## Text
@@ -15,6 +17,8 @@
 <textarea :value="value" @input="onInput($event.target.value)"></textarea>
 ```
 
+# Checkboxes and radiobuttons
+
 > checkboxes and radiobuttons use **checked** property and **change** event
 
 ## Checkbox
@@ -30,6 +34,8 @@
 <input type="radio" :value="formValue" :checked="value" @change="emit('input', $event.target.checked)" />
 <input type="radio" :value="formValue" :checked="value" @change="onChange($event.target.checked)" />
 ```
+
+# Select fields
 
 > select fields use **value** as a prop and **change** as an event
 
