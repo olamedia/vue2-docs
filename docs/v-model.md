@@ -33,3 +33,12 @@
 
 > select fields use **value** as a prop and **change** as an event
 
+## Select
+```vue
+<select v-model="value">
+  <option disabled value="">Please select one</option>
+  <option>A</option>
+  <option>B</option>
+  <option>C</option>
+</select>
+```
